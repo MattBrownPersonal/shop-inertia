@@ -13,7 +13,7 @@ defineProps<{
     <Head title="Welcome" />
     <div class="h-screen">
         <div class="bg-gray-50 text-black/50 dark:bg-stone-800 dark:text-emerald-500">
-            <div class="flex flex flex-1 justify-around py-6 px-6 items-center">
+            <div class="flex flex-1 justify-around py-6 px-6 items-center">
                 <div class="text-6xl">Shop</div>
                 <div class="text-2xl">Mens</div>
                 <div class="text-2xl">Womens</div>
@@ -28,9 +28,21 @@ defineProps<{
                     </svg>
                     </Link>
                 </div>
-
             </div>
         </div>
-    </div>
+        <div class="flex justify-around pt-6 text-6xl">MENS</div>
+        <div class="grid grid-cols-4 gap-4 p-6">
+            <div class="min-h-80 flex flex-col justify-center bg-gray-200">
+                <div class="w-full h-full bg-cover bg-center bg-no-repeat" style="background-image: url('https://picsum.photos/500/');"></div>
+                <p>Words</p>
+                <p>Words</p>
+                <p>Words</p>
+            </div>
+            <div class="min-h-80 flex items-center justify-center bg-gray-200 p-4">1</div>
+            <div class="min-h-80 flex items-center justify-center bg-gray-200 p-4">1</div>
+            <div class="min-h-80 flex items-center justify-center bg-gray-200 p-4">1</div>
+            <div class="min-h-80 flex items-center justify-center bg-gray-200 p-4">1</div>
+        </div>
 
+    </div>
 </template>
